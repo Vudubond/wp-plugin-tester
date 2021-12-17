@@ -2,7 +2,8 @@
 #
 # Purpose: Disable all WP pluins, then enable them one at a time, to see which
 #          one(s) may be breaking site functionality.
-#
+##
+#Made by Orlando
 
 # Argument Parsing
 while getopts d:u:h option; do
