@@ -11,7 +11,7 @@ while getopts d:u:h option; do
     d) domain=${OPTARG};;
     u) username=${OPTARG};;
     h) echo "
-  Usage: $0 [OPTIONS] [ARGUMENTS]
+  Usage: [OPTIONS] [ARGUMENTS]
     -u ... <username> Specify username
     -d ... <domain>   Sepcify domain name
 
